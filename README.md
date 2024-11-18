@@ -32,13 +32,13 @@ This repository aims to investigate and demonstrate the role of correlation betw
 | `Engagement`       | Predictor (Independent) | Continuous (Scale: 0-100)| Employee engagement in ECHO activities over the past year, measured from 0 (not engaged) to 100 (highly engaged). |
 | `Costs`            | Outcome (Dependent)     | Continuous (USD)         | Health-related costs over the past six months, including days absent, insurance premiums, and medical expenses.   |
 
-**Sample Size:**
+**Sample Size:**  
 217 employees.
 
-**Dataset File**
+**Dataset File**  
  `Odnetnin.dat`
 
-**File Format**
+**File Format**  
 `.dat` (space-separated values) with headers.
 
 ## Model Details
