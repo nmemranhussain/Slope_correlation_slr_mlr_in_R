@@ -5,7 +5,6 @@ Odnetnin Co., Ltd., a global gaming software company, launched the Employee Comp
 **Names:** N M Emran Hussain  
 **Email:** nmemranhussain2023@gmail.com  
 **Date:** October 2024  
-**Model Version:** 1.0.0  
 **License:** [MIT License](LICENSE)
 
 ## Intended Use
@@ -15,7 +14,8 @@ This repository aims to investigate and demonstrate the role of correlation betw
 - **Examining Predictor Interplay:** Highlight the influence of highly correlated predictors (e.g., healthiness and engagement) on regression outcomes, focusing on their direct versus mediated effects.  
 - **Model Evaluation:** Evaluate the impact of correlation on simple and multiple regression models, including coefficients, significance, and explanatory power (e.g., adjusted R-squared, partial determination).  
 - **Practical Insights:** Provide a framework for identifying and interpreting confounding hypotheses in real-world datasets, emphasizing the distinction between direct causality and mediated associations.  
-- **Statistical Application:** Use R to model, visualize, and explain the interplay between variables, reinforcing practical skills in regression analysis for applied research.
+- **Statistical Application:** Use R to model, visualize, and explain the interplay between variables, reinforcing practical skills in regression analysis for applied research.  
+- **Confidence level:** All results are reported with a minimum precision of four decimal places, using an alpha level of 0.05 for statistical tests.  
 
 **Intended Users:**
 - Data Analysts, Data scientists, machine learning enthusiasts, educators.
@@ -32,7 +32,14 @@ This repository aims to investigate and demonstrate the role of correlation betw
 | `Engagement`       | Predictor (Independent) | Continuous (Scale: 0-100)| Employee engagement in ECHO activities over the past year, measured from 0 (not engaged) to 100 (highly engaged). |
 | `Costs`            | Outcome (Dependent)     | Continuous (USD)         | Health-related costs over the past six months, including days absent, insurance premiums, and medical expenses.   |
 
-- Sample Size: 217 employees.
+**Sample Size:**
+217 employees.
+
+**Dataset File**
+ `Odnetnin.dat`
+
+**File Format**
+`.dat` (space-separated values) with headers.
 
 ## Model Details
 ### Architecture  
