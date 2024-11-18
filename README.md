@@ -17,3 +17,8 @@ This repository aims to investigate and demonstrate the role of correlation betw
 **Practical Insights:** Provide a framework for identifying and interpreting confounding hypotheses in real-world datasets, emphasizing the distinction between direct causality and mediated associations.  
 **Statistical Application:** Use R to model, visualize, and explain the interplay between variables, reinforcing practical skills in regression analysis for applied research.
 
+**Intended Users:**
+- Data Analysts, Data scientists, machine learning enthusiasts, educators.
+
+**Out-of-scope Uses:**
+- The model is not intended for production use in any critical applications or real-time decision-making systems.  
