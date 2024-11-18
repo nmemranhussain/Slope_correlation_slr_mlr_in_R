@@ -78,6 +78,8 @@ The following columns were used as inputs (features) in the final model:
 
 ## Quantitative Analysis
 
-### Pearson Correlation, Simple (SLR) and Multiple (MR) Regression Analysis table
+### Pearson Correlation, Simple (SLR) and Multiple (MR) Regression Analysis table  
+
+![Table of key findings](table_3.png)  
 
 
