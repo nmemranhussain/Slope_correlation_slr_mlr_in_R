@@ -73,8 +73,11 @@ The following columns were used as inputs (features) in the final model:
 ### Version of the Modeling Software: 
 - **R:** 4.3.2
 - **deplyr:** 1.1.4
-- **heplots:**: 1.7.0
-- **agricolae:**:
+- **heplots:** 1.7.0
+- **agricolae:** 1.3.7
 
+## Quantitative Analysis
+
+### Pearson Correlation, Simple (SLR) and Multiple (MR) Regression Analysis table
 
 
