@@ -82,4 +82,10 @@ The following columns were used as inputs (features) in the final model:
 
 ![Table of key findings](table_3.png)  
 
+### Interpretation  
+The Reason the data supports **'Confounding Hypothesis:'** The data supports the confounding hypothesis over the direct effect hypothesis because 'Engagement' does not demonstrate an independent effect on 'Costs'. In the multiple regression analysis, 'Engagement' can't reasonably assure us the statistically significance (p = 0.171) at the 95% confidence level. Moreover, it doesn't exhibit a strong relationship with 'Costs' (CPD = 0.0018). In a direct effect hypothesis, all independent variables should show a strong and statistically significant relationship with the dependent variable to suggest direct, independent contributions.
+
+On the other hand, 'Healthiness' has a relatively strong (CPD = 0.1223) and can reasonably assure us statistically significant (p < 2e-16) relationship with 'Costs' at the 95% confidence level, suggesting that 'Healthiness' is driving the primary relationship with 'Costs'. The high correlation between 'Engagement' and 'Healthiness' (0.8996) implies that 'Engagement' may act as a confounded predictor, indirectly associated with 'Costs' due to its strong association with Healthiness, rather than having an independent, direct effect on Costs.
+
+
 
