@@ -21,4 +21,17 @@ This repository aims to investigate and demonstrate the role of correlation betw
 - Data Analysts, Data scientists, machine learning enthusiasts, educators.
 
 **Out-of-scope Uses:**
-- The model is not intended for production use in any critical applications or real-time decision-making systems.  
+- The model is not intended for production use in any critical applications or real-time decision-making systems.
+
+## Data Description
+This dataset pertains to a study on the effectiveness of the ECHO Program conducted by Odnetnin Co., Ltd, a multinational gaming software company. Below is a detailed description of the variables:
+
+| **Variable Name**  | **Model Role**          | **Measurement Level**    | **Description**                                                                                                   |
+|--------------------|-------------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------|
+| `Healthiness`      | Predictor (Independent) | Continuous (Scale: 0-100)| Level of healthiness of employees measured on a scale from 0 (very unhealthy) to 100 (very healthy).              |
+| `Engagement`       | Predictor (Independent) | Continuous (Scale: 0-100)| Employee engagement in ECHO activities over the past year, measured from 0 (not engaged) to 100 (highly engaged). |
+| `Costs`            | Outcome (Dependent)     | Continuous (USD)         | Health-related costs over the past six months, including days absent, insurance premiums, and medical expenses.   |
+
+Sample Size: 217 employees.
+
+
