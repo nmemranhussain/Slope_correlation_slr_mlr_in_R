@@ -11,11 +11,11 @@ Odnetnin Co., Ltd., a global gaming software company, launched the Employee Comp
 ## Intended Use
 **Purpose:**  
 This repository aims to investigate and demonstrate the role of correlation between independent variables in regression analysis. Key objectives include:  
-**Exploring Confounding Effects:** Analyze how the correlation between independent variables affects their relationships with the dependent variable in both bivariate and multivariate contexts.  
-**Examining Predictor Interplay:** Highlight the influence of highly correlated predictors (e.g., healthiness and engagement) on regression outcomes, focusing on their direct versus mediated effects.  
-**Model Evaluation:** Evaluate the impact of correlation on simple and multiple regression models, including coefficients, significance, and explanatory power (e.g., adjusted R-squared, partial determination).  
-**Practical Insights:** Provide a framework for identifying and interpreting confounding hypotheses in real-world datasets, emphasizing the distinction between direct causality and mediated associations.  
-**Statistical Application:** Use R to model, visualize, and explain the interplay between variables, reinforcing practical skills in regression analysis for applied research.
+- **Exploring Confounding Effects:** Analyze how the correlation between independent variables affects their relationships with the dependent variable in both bivariate and multivariate contexts.  
+- **Examining Predictor Interplay:** Highlight the influence of highly correlated predictors (e.g., healthiness and engagement) on regression outcomes, focusing on their direct versus mediated effects.  
+- **Model Evaluation:** Evaluate the impact of correlation on simple and multiple regression models, including coefficients, significance, and explanatory power (e.g., adjusted R-squared, partial determination).  
+- **Practical Insights:** Provide a framework for identifying and interpreting confounding hypotheses in real-world datasets, emphasizing the distinction between direct causality and mediated associations.  
+- **Statistical Application:** Use R to model, visualize, and explain the interplay between variables, reinforcing practical skills in regression analysis for applied research.
 
 **Intended Users:**
 - Data Analysts, Data scientists, machine learning enthusiasts, educators.
