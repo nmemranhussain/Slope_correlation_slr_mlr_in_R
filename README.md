@@ -32,10 +32,8 @@ This repository aims to investigate and demonstrate the role of correlation betw
 | Happiness          | Dependent      | Ratio                  | Happiness score on a scale from 0 to 100            |
 | Costs              | Independent    | Ratio                  | Medical premium costs in USD.                       |
 
-- Sample Size: 217 employees.
-
-- Dataset File: Odnetnin.dat
-
+- Sample Size: 217 employees.  
+- Dataset File: Odnetnin.dat  
 - File Format: .dat (space-separated values) with headers.
 
 ## Model Details
