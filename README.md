@@ -26,11 +26,11 @@ This repository aims to investigate and demonstrate the role of correlation betw
 ## Data Description
 - This dataset pertains to a study on the effectiveness of the ECHO Program conducted by Odnetnin Co., Ltd, a multinational gaming software company. Below is a detailed description of the variables:
 
-| **Variable Name**  | **Model Role**          | **Measurement Level**    | **Description**                                                                                                   |
-|--------------------|-------------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------|
-| Healthiness        | Predictor (Independent) | Continuous (Scale: 0-100)| Level of healthiness of employees measured on a scale from 0 (very unhealthy) to 100 (very healthy).              |
-| Engagement         | Predictor (Independent) | Continuous (Scale: 0-100)| Employee engagement in ECHO activities over the past year, measured from 0 (not engaged) to 100 (highly engaged). |
-| Costs              | Outcome (Dependent)     | Continuous (USD)         | Health-related costs over the past six months, including days absent, insurance premiums, and medical expenses.   |
+| **Variable Name**  | **Model Role** | **Measurement Level**  | **Description**                                     |
+|--------------------|----------------|------------------------|-----------------------------------------------------|
+| **Engagement**     | Independent    | Ratio                  | Engagement score on a scale from 0 to 100.          |
+| **Happiness**      | Dependent      | Ratio                  | Happiness score on a scale from 0 to 100            |
+| **Costs**          | Independent    | Ratio                  | Medical premium costs in USD.                       |
 
 - Sample Size: 217 employees.
 
