@@ -28,18 +28,18 @@ This repository aims to investigate and demonstrate the role of correlation betw
 
 | **Variable Name**  | **Model Role**          | **Measurement Level**    | **Description**                                                                                                   |
 |--------------------|-------------------------|--------------------------|-------------------------------------------------------------------------------------------------------------------|
-| `Healthiness`      | Predictor (Independent) | Continuous (Scale: 0-100)| Level of healthiness of employees measured on a scale from 0 (very unhealthy) to 100 (very healthy).              |
-| `Engagement`       | Predictor (Independent) | Continuous (Scale: 0-100)| Employee engagement in ECHO activities over the past year, measured from 0 (not engaged) to 100 (highly engaged). |
-| `Costs`            | Outcome (Dependent)     | Continuous (USD)         | Health-related costs over the past six months, including days absent, insurance premiums, and medical expenses.   |
+| Healthiness        | Predictor (Independent) | Continuous (Scale: 0-100)| Level of healthiness of employees measured on a scale from 0 (very unhealthy) to 100 (very healthy).              |
+| Engagement         | Predictor (Independent) | Continuous (Scale: 0-100)| Employee engagement in ECHO activities over the past year, measured from 0 (not engaged) to 100 (highly engaged). |
+| Costs              | Outcome (Dependent)     | Continuous (USD)         | Health-related costs over the past six months, including days absent, insurance premiums, and medical expenses.   |
 
 **Sample Size:**  
 217 employees.
 
 **Dataset File**  
- `Odnetnin.dat`
+ Odnetnin.dat
 
 **File Format**  
-`.dat` (space-separated values) with headers.
+.dat (space-separated values) with headers.
 
 ## Model Details
 ### Architecture  
