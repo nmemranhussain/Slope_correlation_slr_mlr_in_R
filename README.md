@@ -29,8 +29,8 @@ This repository aims to investigate and demonstrate the role of correlation betw
 | **Variable Name**  | **Model Role** | **Measurement Level**  | **Description**                                     |
 |--------------------|----------------|------------------------|-----------------------------------------------------|
 | Engagement         | Independent    | Ratio                  | Engagement score on a scale from 0 to 100.          |
-| Happiness          | Dependent      | Ratio                  | Happiness score on a scale from 0 to 100            |
-| Costs              | Independent    | Ratio                  | Medical premium costs in USD.                       |
+| Happiness          | Independent    | Ratio                  | Happiness score on a scale from 0 to 100            |
+| Costs              | Ddependent     | Ratio                  | Medical premium costs in USD.                       |
 
 - Sample Size: 217 employees.  
 - Dataset File: Odnetnin.dat  
