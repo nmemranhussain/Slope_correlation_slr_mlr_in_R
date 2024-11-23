@@ -33,13 +33,13 @@ This repository aims to investigate and demonstrate the role of correlation betw
 | Costs              | Outcome (Dependent)     | Continuous (USD)         | Health-related costs over the past six months, including days absent, insurance premiums, and medical expenses.   |
 
 **Sample Size:**  
-217 employees.
+- 217 employees.
 
 **Dataset File**  
- Odnetnin.dat
+- Odnetnin.dat
 
 **File Format**  
-.dat (space-separated values) with headers.
+- .dat (space-separated values) with headers.
 
 ## Model Details
 ### Architecture  
