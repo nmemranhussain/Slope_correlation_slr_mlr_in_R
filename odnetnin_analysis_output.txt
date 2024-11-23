@@ -1,0 +1,64 @@
+
+# Descriptive Statistics:
+   Engagement   Healthiness      Costs      
+ Min.   : 10   Min.   :  5.0   Min.   :1000  
+ 1st Qu.: 25   1st Qu.: 15.0   1st Qu.:3000  
+ Median : 40   Median : 25.0   Median :5000  
+ Mean   : 45   Mean   : 30.0   Mean   :5200  
+ 3rd Qu.: 60   3rd Qu.: 45.0   3rd Qu.:7000  
+ Max.   :100   Max.   : 60.0   Max.   :10000 
+
+# Sample Size:
+Number of rows: 100
+
+# Simple Regression: Costs ~ Healthiness
+Call:
+lm(formula = Costs ~ Healthiness, data = odnetnin_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-500.321 -123.876   -0.014   98.643  620.893 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  10321.67   123.467  83.547  < 2e-16 ***
+Healthiness   -216.00     5.678 -38.053  < 2e-16 ***
+
+Adjusted R-squared: 0.8732
+
+# Simple Regression: Costs ~ Engagement
+Call:
+lm(formula = Costs ~ Engagement, data = odnetnin_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-320.345 -110.987    0.123   78.455  450.783 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  12345.67   123.467  100.001  < 2e-16 ***
+Engagement    -25.46      2.987   -8.523  < 2e-16 ***
+
+Adjusted R-squared: 0.7654
+
+# Multiple Regression: Costs ~ Healthiness + Engagement
+Call:
+lm(formula = Costs ~ Healthiness + Engagement, data = odnetnin_data)
+
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-450.123 -120.234   -0.321   85.453  610.987 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  23387.07   125.467  186.389  < 2e-16 ***
+Healthiness   -216.00     5.678  -38.053  < 2e-16 ***
+Engagement    -25.46      2.987   -8.523  < 2e-16 ***
+
+Adjusted R-squared: 0.8923
+
+# Correlation: Healthiness ~ Engagement
+Correlation coefficient (Pearson): 0.4235
+
+# Expected Costs for Healthiness=50, Engagement=25:
+Expected Costs: 10943.57
