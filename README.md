@@ -88,4 +88,4 @@ The reason the data supports **'Confounding Hypothesis:'** The data supports the
 
 The reason the data dosn't supports **'Simpson Paradox:'** While Simpson's paradox typically involves a reversal of association direction between bivariate and multivariate analyses, in this case, the direction of the slopes remains consistent across both levels. This lack of reversal indicates that Simpson's paradox is not present in the dataset.
 
-
+The reason the data dosn't supports **'Suppressor Effect:'** In a suppressor effect, individual independent variables may appear insignificant in bivariate analysis due to high correlation with other predictors. However, when included in a multivariate model, they can become significant as the model accounts for their shared variance. In this case, while both independent variables are significant in bivariate analysis, one becomes insignificant in the multivariate model. This pattern does not align with the characteristics of a suppressor effect, indicating a different underlying relationship between the variables.
