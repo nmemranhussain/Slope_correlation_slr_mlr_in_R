@@ -43,7 +43,7 @@ This repository aims to investigate and demonstrate the role of correlation betw
 ### Evaluation Metrics  
 - **Coefficient of multiple determination (R²)** - Indicates the strength of relationships in **'sample'**. It is also denoted by CD.
 - **Adjusted R²** - Indicates the strength of relationships in **'population'**. It is also denoted by Adjusted CD.
-- **Coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'Streaming Hours'.
+- **Coefficient of partial determination (CPD)** - Indicates what portion of each independent variables can explain the 'dependent variable'.
 - **Unconditional P-value** - Indicates statistical significance in bivariate level (simple regression) using 95% confidence level.
 - **Conditional P-value** - Indicates statistical significance in multivariate level (multiple regression) using 95% confidence level.
 - **b-value in SLR** - represents the magnitude and direction of **'slope'** of independent variable in a simple regression model.
